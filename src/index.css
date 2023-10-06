@@ -1,0 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+@import url('https://fonts.cdnfonts.com/css/commissioner-2');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1024px) {
+    .display{
+        transition: 1s;
+    }
+    
+    .show{
+        display: flex;
+    }
+}
